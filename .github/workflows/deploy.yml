@@ -36,9 +36,9 @@ jobs:
       - name: Deploy SAM app
         run: |
           sam deploy \
-            --stack-name <YOUR STACK NAME>\
-            --s3-bucket <YOUR S3 BUCKEY NAME>\
+            --stack-name sam-app\
+            --s3-bucket aws-sam-cli-managed-default-samclisourcebucket-4j4zk44tqmzp\
             --capabilities CAPABILITY_IAM \
-            --region <YOUR REGION>\
+            --region us-east-1\
             --no-confirm-changeset \
             --no-fail-on-empty-changeset
