@@ -1,4 +1,5 @@
-FROM public.ecr.aws/lambda/nodejs:20
+# change the base image to a specific Node.js version
+FROM public.ecr.aws/lambda/nodejs:22  
  
 # Copy package files
 COPY package*.json ./
