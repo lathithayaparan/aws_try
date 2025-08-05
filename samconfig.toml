@@ -15,7 +15,6 @@ lint = true
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
 resolve_image_repos = true
-resolve_s3 = true
 s3_prefix = "new1"
 region = "us-east-1"
 stack_name = "new1"
